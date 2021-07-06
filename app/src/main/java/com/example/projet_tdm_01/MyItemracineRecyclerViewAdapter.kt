@@ -8,10 +8,7 @@ import android.widget.TextView
 
 import com.example.projet_tdm_01.dummy.DummyContent.DummyItem
 
-/**
- * [RecyclerView.Adapter] that can display a [DummyItem].
- * TODO: Replace the implementation with code for your data type.
- */
+
 class MyItemracineRecyclerViewAdapter(
     private val values: List<DummyItem>
 ) : RecyclerView.Adapter<MyItemracineRecyclerViewAdapter.ViewHolder>() {
