@@ -1,18 +1,17 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.*
-import java.util.*
 
 @Dao
 interface SouratDao {
 
     @Insert
-    fun addSourat (sourat:Sourat)
+    fun addSourat (sourat: Sourat)
     @Insert
-    fun addSourats(Sourats:List<Sourat>)
+    fun addSourat(Sourats:List<Sourat>)
 
     @Delete
-    fun delSourat (sourat:Sourat)
+    fun delSourat (sourat: Sourat)
 
 
     @Query("select * from Index_Sourat")

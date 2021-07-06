@@ -1,8 +1,12 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
+
 import androidx.room.PrimaryKey
+
+
+
 
 
 @Entity(tableName = "Mots_du_Coran",foreignKeys = arrayOf(

@@ -1,4 +1,4 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.Entity
 

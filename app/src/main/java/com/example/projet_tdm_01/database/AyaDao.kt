@@ -1,6 +1,7 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 @Dao
@@ -11,6 +12,9 @@ interface AyaDao {
 
     @Insert
     fun addAyas(ayas: List<Aya>)
+
+    @Delete
+    fun delAya (aya: Aya)
 
     @Query("select * from Aya")
     fun getAllAya(): List<Aya>

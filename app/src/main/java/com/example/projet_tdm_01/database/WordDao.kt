@@ -1,17 +1,20 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
-import androidx.room.Query
 
 @Dao
 interface WordDao {
 
     @Insert
-    fun addWord(word:Word)
+    fun addWord(word: Word)
 
     @Insert
     fun addWords(words: List<Word>)
+
+    @Delete
+    fun delword (word: Word)
 
     /*
 

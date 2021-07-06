@@ -1,4 +1,4 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -16,6 +16,5 @@ data class Racine(
    val e3:String,
    val e4:String,
    val e5:String,
-   val e6:String,
    val nblettre:Int,
    )

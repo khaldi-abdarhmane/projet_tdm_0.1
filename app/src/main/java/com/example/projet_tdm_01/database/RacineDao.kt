@@ -1,13 +1,12 @@
-package com.example.projet_tdm_01
+package com.example.projet_tdm_01.database
 
 import androidx.room.*
-import java.util.*
 
 @Dao
 interface RacineDao {
 
     @Insert
-    fun addRacine (racine:Racine)
+    fun addRacine (racine: Racine)
 
     @Insert
     fun addRacine(racines:List<Racine>)
